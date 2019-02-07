@@ -1,0 +1,31 @@
+body {
+  font-size: 18px;
+  background-color: #fff; 
+  width: 1000px;
+  margin:auto;
+}
+
+.nav-link{
+  margin:10px;
+}
+
+.container{
+  width: 1000px;
+  background-color: #ffffe0;
+}
+
+
+
+.main_contents{
+  width: 650px;
+  height: 450px;
+}
+
+.card{
+  
+}
+
+footer{
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
