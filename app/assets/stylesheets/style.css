@@ -32,7 +32,30 @@ body {
   height: 40%;
   margin: 0 auto;
   background-color: #e6e6fa;
-  margin-top: 30px;
+  margin-top:30px;
+  margin-bottom: 20px;
+}
+
+.card-deck{
+  height: 420px;
+  width: 85%;
+  margin: 0 auto;
+  background-color: #fff0f5;
+}
+
+.card-deck1{
+  width: 50%;
+  background-color: #f0fff0;
+}
+
+.card-deck2{
+  width: 50%;
+  background-color: #f5f5dc;
+}
+
+.card{
+  height: 45%;
+  margin:10px;
 }
 
 .right-content {
@@ -40,6 +63,11 @@ body {
   width: 30%;
   background-color: #f9f9f9;
   float: left;
+}
+
+.inside{
+  height: 60%;
+  background-color: #fffff0;
 }
 
 
