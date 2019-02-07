@@ -1,31 +1,59 @@
 body {
   font-size: 18px;
-  background-color: #fff; 
-  width: 1000px;
-  margin:auto;
+  background-color:#fff ; 
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar{
+  font-family: sans-serif;
 }
 
 .nav-link{
   margin:10px;
 }
 
-.container{
-  width: 1000px;
-  background-color: #ffffe0;
+.contents {
+  height: 800px;
+  width: 1200px;
+  background-color: white;
+  margin: 0 auto;
 }
 
-
-
-.main_contents{
-  width: 650px;
-  height: 450px;
+.left-content {
+  height: 800px;
+  width: 70%;
+  background-color: #f0f8ff;
+  float: left;
 }
 
-.card{
-  
+.flower_content{
+  width: 85%;
+  height: 40%;
+  margin: 0 auto;
+  background-color: #e6e6fa;
+  margin-top: 30px;
 }
+
+.right-content {
+  height: 800px;
+  width: 30%;
+  background-color: #f9f9f9;
+  float: left;
+}
+
 
 footer{
   text-align: center;
 }
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+
+
 /*# sourceMappingURL=style.css.map */
