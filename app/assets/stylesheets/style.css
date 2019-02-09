@@ -58,6 +58,17 @@ body {
   margin:10px;
 }
 
+.card-img-top{
+  height: 80%;
+  background-color: #ffc0cb;
+  
+}
+
+.card-body{
+  height: 25%;
+}
+
+
 .right-content {
   height: 800px;
   width: 30%;
@@ -69,6 +80,33 @@ body {
   height: 60%;
   background-color: #fffff0;
 }
+
+.inside_bar{
+  height: 100%;
+}
+
+.popular_ranking{
+  text-align: center;
+  padding-top :20px;
+}
+
+.ranking{
+  height: 100%;
+}
+
+
+.ranking_card{
+  background-color: #f0ffff;
+  margin: 20px auto;
+  
+}
+
+.category{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
 
 
 footer{
