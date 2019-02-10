@@ -21,7 +21,7 @@ body {
 }
 
 .left-content {
-  height: 800px;
+  height: 1400px;
   width: 70%;
   background-color: #f0f8ff;
   float: left;
@@ -40,44 +40,38 @@ body {
   height: 420px;
   width: 85%;
   margin: 0 auto;
-  background-color: #fff0f5;
 }
 
 .card-deck1{
   width: 50%;
-  background-color: #f0fff0;
+  height: 100%;
 }
 
 .card-deck2{
   width: 50%;
-  background-color: #f5f5dc;
 }
 
 .card{
-  height: 45%;
-  margin:10px;
+  height: 80%;
+  margin: 40px;
 }
 
 .card-img-top{
-  height: 80%;
+  height: 100%;
   background-color: #ffc0cb;
   
 }
 
-.card-body{
-  height: 25%;
-}
-
 
 .right-content {
-  height: 800px;
+  height: 1400px;
   width: 30%;
   background-color: #f9f9f9;
   float: left;
 }
 
 .inside{
-  height: 60%;
+  height: 70%;
   background-color: #fffff0;
 }
 
@@ -94,10 +88,20 @@ body {
   height: 100%;
 }
 
+.ranking_card3{
+  height: 90%;
+}
+
 
 .ranking_card{
+  height: 30%;
   background-color: #f0ffff;
-  margin: 20px auto;
+  margin: 30px 30px;
+  
+}
+
+.categorys{
+  height: 30%;
   
 }
 
