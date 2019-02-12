@@ -7,12 +7,13 @@ class Scraping
       elements.each do |ele|
        links << ele.get_attribute('src') 
       end
-   end
+   end 
+    
    
-   def self.scraping_save(link)
+   def self.scraping_save(links)
        agent = Mechanize.new
-       page = agent.get(link)
-       image = page.at('.photoEntry__thumb img')[:src]if page.at('photoEntry__thumb img')
+       page = agent.get(links)
+       image = page.at('.photoEntry__thumb img')[:src] if page.at('photoEntry__thumb img')
        
        column = Column.new(image:image)
        column.save
