@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2019_02_06_123804) do
 
   create_table "columns", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.text "name"
-    t.text "text"
+    t.text "image"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
