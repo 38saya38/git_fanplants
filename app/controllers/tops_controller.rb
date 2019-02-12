@@ -1,5 +1,5 @@
 class TopsController < ApplicationController
     def index
-     @tops = []
+     @columns = []
     end
 end
