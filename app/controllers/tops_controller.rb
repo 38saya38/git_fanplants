@@ -1,9 +1,10 @@
 class TopsController < ApplicationController
     def index
-     @columns = []
     end
     
-    def search
-    @columns = []
+    def contact
+    end
+    
+    def about
     end
 end
