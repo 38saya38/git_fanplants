@@ -21,23 +21,22 @@ body {
 }
 
 .left-content {
-  height: 1400px;
+  height: 2000px;
   width: 70%;
   background-color: #f0f8ff;
   float: left;
 }
 
 .flower_content{
-  width: 90%;
-  height: 35%;
+  width: 700px;
+  height: 420px;
   margin: 0 auto;
-  background-color: #e6e6fa;
   margin-top:50px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .card-deck{
-  height: 420px;
+  height: 600px;
   width: 85%;
   margin: 0 auto;
 }
@@ -52,7 +51,7 @@ body {
 }
 
 .card{
-  height: 80%;
+  height: 50%;
   margin: 40px;
   margin: 50px;
 }
@@ -65,7 +64,7 @@ body {
 
 
 .right-content {
-  height: 1400px;
+  height: 2000px;
   width: 30%;
   background-color: #f9f9f9;
   float: left;
@@ -86,19 +85,25 @@ body {
 }
 
 .ranking{
-  height: 100%;
+  height: 1100px;
 }
 
 .ranking_card3{
-  height: 90%;
+  height: 1000px;
 }
 
 
 .ranking_card{
-  height: 30%;
+  height: 300px;
   background-color: #f0ffff;
   margin: 30px 30px;
   
+}
+.writer{
+  width: 300px;
+  height: 280px;
+  background-color: white;
+  margin: 0 auto;
 }
 
 .categorys{
