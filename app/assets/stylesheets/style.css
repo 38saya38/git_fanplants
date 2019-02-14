@@ -1,27 +1,20 @@
 body {
   font-size: 18px;
+  font-family: sans-serif;
   background-color:#fff ; 
   width: 1200px;
   margin: 0 auto;
 }
 
-.navbar{
-  font-family: sans-serif;
-}
 
 .nav-link{
   margin:10px;
 }
 
-.contents {
-  height: 800px;
-  width: 1200px;
-  background-color: white;
-  margin: 0 auto;
-}
+
 
 .left-content {
-  height: 2000px;
+  height: 1900px;
   width: 70%;
   background-color: #f0f8ff;
   float: left;
@@ -52,8 +45,8 @@ body {
 
 .card{
   height: 50%;
-  margin: 40px;
-  margin: 50px;
+  width: 330px;
+  margin: 40px 60px;
 }
 
 .card-img-top{
@@ -64,7 +57,7 @@ body {
 
 
 .right-content {
-  height: 2000px;
+  height: 1900px;
   width: 30%;
   background-color: #f9f9f9;
   float: left;
@@ -85,25 +78,25 @@ body {
 }
 
 .ranking{
-  height: 1100px;
+  height: 980px;
 }
 
 .ranking_card3{
-  height: 1000px;
+  height: 960px;
 }
 
 
 .ranking_card{
-  height: 300px;
+  height: 290px;
   background-color: #f0ffff;
   margin: 30px 30px;
   
 }
 .writer{
   width: 300px;
-  height: 280px;
+  height: 260px;
   background-color: white;
-  margin: 0 auto;
+  margin:0 auto;
 }
 
 .categorys{
@@ -134,8 +127,17 @@ body {
   margin: 0 auto;
 }
 
+.flower_links{
+  width: 700px;
+  height: 1300px;
+  margin: 0 auto;
+  background-color: white;
+}
 
-
+.link_titles{
+  height: 60px;
+  background-color: #f0ffff;
+}
 
 footer{
   text-align: center;
@@ -146,8 +148,5 @@ footer{
   clear: both;
   display: block;
 }
-
-
-
 
 /*# sourceMappingURL=style.css.map */
