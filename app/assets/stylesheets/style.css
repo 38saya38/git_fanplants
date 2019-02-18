@@ -29,14 +29,12 @@ body {
 }
 
 .card-deck{
-  height: 1200px;
-  width: 85%;
+  height: 1420px;
   margin: 0 auto;
 }
 
 .card-deck1{
   width: 50%;
-  height: 100%;
 }
 
 .card-deck2{
@@ -44,7 +42,8 @@ body {
 }
 
 .card{
-  height: 50%;
+  height: 300px;
+  
   width: 330px;
   margin: 40px 60px;
 }
