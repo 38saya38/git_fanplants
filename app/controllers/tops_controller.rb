@@ -1,6 +1,6 @@
 class TopsController < ApplicationController
     def index
-        @tops = Top.order('id ASC').limit(8)
+        @tops = Column.order('id ASC').limit(8)
     end
     
     def contact
