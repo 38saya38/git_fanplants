@@ -34,26 +34,13 @@ body {
   margin: 0 auto;
 }
 
-/*.card-deck1{*/
-/*  width: 50%;*/
-/*}*/
-
-/*.card-deck2{*/
-/*  width: 50%;*/
-/*}*/
 
 .card{
-  height:300px;
-  width:300px;
-  margin:40px;
-  
+  height: 300px;
+  width: 350px;
+  background-size: 300px;
+  margin:50px;
 }
-
-/*.card-img-top{*/
-/*  height: 100%;*/
-/*  background-color: #ffc0cb;*/
-  
-/*}*/
 
 
 .right-content {
