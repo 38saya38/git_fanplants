@@ -16,8 +16,9 @@
 
   <body　class="home">
     <header>
-    <nav class="navbar navbar-expand-lg navbar-lightls">
-  <a class="navbar-brand" href="">Fan!plants  -植物を、楽しむ-</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <%= link_to 'Fan!plants  -植物を、楽しむ-', "/", method: :get %>
+      <!--<a class="navbar-brand" href="">Fan!plants  -植物を、楽しむ-></a>-->
   <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="ナビゲーションの切替">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -27,14 +28,14 @@
       <li class="nav-item active">
         <a class="nav-link" hre="#"> <span class="sr-only"></span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="tops/about">About</a>
+      <li class="nav-item"> 
+        <%= link_to 'About', "/tops/about", method: :get %>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="tops/contact">Contact</a></a>
+        <%= link_to 'Contact', "/tops/contact", method: :get %>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="tops/link">Link</a></a>
+       <%= link_to 'Link', "/tops/link", method: :get %>
       </li>
     </ul>
     <span class="navbar-text">
