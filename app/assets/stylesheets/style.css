@@ -131,6 +131,16 @@ body {
   background-color: #f0ffff;
 }
 
+.category{
+  height: 30px
+}
+
+.main_category{
+  height: 460px;
+  margin: 30px;
+  background-color: #fff;
+}
+
 footer{
   text-align: center;
 }
