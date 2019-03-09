@@ -39,12 +39,17 @@ body {
   margin: 0 auto;
 }
 
+a{
+  height: 300px;
+  width: 300px;
+  background-size: 300px 300px;
+}
 
 .card{
-  height: 330px;
-  width: 330px;
-  background-size: 330px 330px;
-  
+  height: 300px;
+  width: 300px;
+  background-size: 300px 300px;
+  margin:50px;
   
 }
 
