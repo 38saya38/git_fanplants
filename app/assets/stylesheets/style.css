@@ -35,21 +35,24 @@ body {
 
 .card-deck{
   height: 1420px;
-  width:700px;
+  width:720px;
   margin: 0 auto;
 }
 
-a{
-  height: 300px;
-  width: 300px;
-  background-size: 300px 300px;
+a.card-deck{
+  width:320px;
+  height:315px;
+  background-size: 320px 315px;
+  margin: 0 auto;
+  
 }
 
 .card{
-  height: 300px;
-  width: 300px;
-  background-size: 300px 300px;
-  margin:50px;
+  height: 315px;
+  width: 320px;
+  background-size: 320px 315px;
+  
+
   
 }
 
