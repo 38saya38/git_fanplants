@@ -4,6 +4,9 @@ class TopsController < ApplicationController
     end
     
     def contact
+         # 入力画面を表示
+    @top = Top.new
+    render :action => 'contact'
         
     end
     
@@ -20,6 +23,8 @@ class TopsController < ApplicationController
     end
     
     def thanks
+        @top = Top.new(params[:top])
+        TopMailer.received_email(@top).delive
     end
     
     def about
