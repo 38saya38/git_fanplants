@@ -23,8 +23,12 @@ class TopsController < ApplicationController
     end
     
     def thanks
+        #メール送信
         @top = Top.new(params[:top])
         TopMailer.received_email(@top).delive
+        
+        # 完了画面を表示
+    　　render :action => 'thanks'
     end
     
     def about
