@@ -3,7 +3,7 @@
         <%=image_tag 'DSC_0773.JPG',:size =>'700x420'%>
     </div>
      <div>
-         <%= form_for @top, :url => top_confirm_path do |f| %>
+         <%= form_for @top, :url => tops_confirm_path do |f| %>
   <div class="page-header">
     <h1>お問い合わせ</h1>
   </div>
@@ -22,7 +22,7 @@
   <table class="table">
     <tr>
       <th>名前<span class="text-danger">（必須）</span></th>
-      <td><%= f.text_field :name %></td>
+      <td><%= f.text_field:name%></td>
     </tr>
     <tr>
       <th>メールアドレス<span class="text-danger">（必須）</span></th>
