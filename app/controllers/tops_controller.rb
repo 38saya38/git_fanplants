@@ -7,6 +7,12 @@ class TopsController < ApplicationController
         
     end
     
+    def confirm
+    end
+    
+    def thanks
+    end
+    
     def about
     end
 end
