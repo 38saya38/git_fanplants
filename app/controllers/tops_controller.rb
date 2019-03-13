@@ -18,7 +18,7 @@ class TopsController < ApplicationController
       render :action => 'confirm'
       else
       # NG。入力画面を再表示
-      render :action => 'index'
+      render :action => 'contact'
       end
     end
     
