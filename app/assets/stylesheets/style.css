@@ -35,28 +35,28 @@ body {
 
 .card-deck{
   height: 1420px;
-  width:720px;
+  width: 720px;
   padding-top: 60px;
   margin: 0 auto;
 }
 
 article{
-  height:370px;
-  width:320px;
+  height:360px;
+  width:360px;
 }
 
 a.card-deck{
   display:block;
-  width: 350px;
-  height: 350px;
-  background-size: 350px 350px;
+  /*width: 345px;*/
+  height: 345px;
+  background-size: 345px 345px;
   margin: 0 auto;
 }
 
 .card{
-  height: 350px;
-  width: 350px;
-  background-size: 350px 350px;
+  height: 345px;
+  width: 345px;
+  background-size: 345px 345px;
 }
 
 
