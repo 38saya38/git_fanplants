@@ -36,7 +36,7 @@ body {
 .card-deck{
   height: 1420px;
   width:720px;
-  padding-top: 50px;
+  padding-top: 60px;
   margin: 0 auto;
 }
 
@@ -47,16 +47,16 @@ article{
 
 a.card-deck{
   display:block;
-  width: 320px;
-  height: 315px;
-  background-size: 320px 315px;
+  width: 350px;
+  height: 350px;
+  background-size: 350px 350px;
   margin: 0 auto;
 }
 
 .card{
-  height: 315px;
-  width: 320px;
-  background-size: 320px 315px;
+  height: 350px;
+  width: 350px;
+  background-size: 350px 350px;
 }
 
 
