@@ -45,13 +45,13 @@ article{
   width:360px;
 }
 
-a.card-deck{
-  display:block;
-  /*width: 345px;*/
-  height: 345px;
-  background-size: 345px 345px;
-  margin: 0 auto;
-}
+/*a.card-deck{*/
+/*  display:block;*/
+/*  width: 345px;*/
+/*  height: 345px;*/
+/*  background-size: 345px 345px;*/
+/*  margin: 0 auto;*/
+/*}*/
 
 .card{
   height: 345px;
