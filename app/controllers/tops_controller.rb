@@ -4,10 +4,10 @@ class TopsController < ApplicationController
     end
     
     def contact
+        binding.pry
          # 入力画面を表示
-    @top = Top.new
+    @top = Top.new(top_params[:name],top_params[:email],top_params[:message])
     render :action => 'contact'
-        
     end
     
     def confirm
@@ -32,5 +32,10 @@ class TopsController < ApplicationController
     end
     
     def about
+    end
+    
+    private
+    def top_params
+        params.permit(:name,:email,:message)
     end
 end
