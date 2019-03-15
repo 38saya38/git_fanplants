@@ -3,10 +3,11 @@
     </div>
       <div class ="card-deck">
         <% @tops.each do |top| %>
+        <artice>
          <a href="/pages/<%= top.id %>">
-             <!--<img src="<%=top.image %>" alt="関連画像">-->
              <div class="card" style="background-image:url(<%=top.image %>);" >
              </div>
+        </artice>
          </a>
         <%end%>
       </div>
