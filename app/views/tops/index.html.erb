@@ -2,14 +2,16 @@
          <%= image_tag 'DSC_0618.JPG',:size =>'700x420'%>
     </div>
       <div class ="card-deck">
+          
         <% @tops.each do |top| %>
         <article>
-         <a href="/pages/<%= top.id %>">
+            <a class "cardtype_link" href="/pages/<%= top.id %>">
              <div class="card" style="background-image:url(<%=top.image %>);" >
              </div>
-        　</a>
+             </a>
         </article>
         <%end%>
+          
       </div>
 
   
