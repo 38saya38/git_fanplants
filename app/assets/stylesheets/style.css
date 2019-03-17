@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Overlock:700i|Srisakdi');
+
+
 body {
-  font-size: 18px;
-  font-family: sans-serif;
+  font-family: 'Srisakdi', cursive;
+  font-family: 'Overlock', cursive;
   background-color: #fff; 
   width: 1200px;
   margin: 0 auto;
