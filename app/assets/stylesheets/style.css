@@ -9,6 +9,12 @@ body {
   margin: 0 auto;
 }
 
+nav{ 
+  font-size: 30px;
+}
+.nav-item{
+  font-size: 25px;
+}
 
 .nav-link{
   margin:10px;
