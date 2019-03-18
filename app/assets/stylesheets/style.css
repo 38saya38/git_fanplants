@@ -4,13 +4,15 @@
 body {
   font-family: 'Srisakdi', cursive;
   font-family: 'Overlock', cursive;
-  background-color: #fff; 
+  background-color: #d6ffad;
   width: 1200px;
   margin: 0 auto;
 }
 
 nav{ 
   font-size: 30px;
+  background-color: #79c06e;
+
 }
 
 .nav-item{
@@ -31,7 +33,7 @@ nav{
 .left-content {
   height: 1900px;
   width: 70%;
-  background-color: #f0f8ff;
+  background-color: #fff;
   float: left;
 }
 
