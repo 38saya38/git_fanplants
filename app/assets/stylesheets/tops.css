@@ -1,16 +1,32 @@
 @charset "UTF-8";
 
 body {
-  line-height: 60px; }
+  line-height: 60px;
+  }
 
 h2 {
-  font-size: 45px; }
+  font-size: 45px;
+  }
 
-.sub_title {
-  font-size: 30px; }
+.link-title {
+  height:120px;
+  font-size: 30px;
+  }
   
 .text{
   font-size: 20px;
+}
+
+.link_urls{
+  height: 900px;
+  margin-top: 20px;
+}
+
+.link1{
+  height: 60px;
+  margin: 5px;
+  margin-bottom: 50px;
+  background-color: blue;
 }
 
 /*# sourceMappingURL=tops.css.map */
