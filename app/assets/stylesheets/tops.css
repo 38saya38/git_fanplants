@@ -14,10 +14,10 @@ h2 {
 
 
 .link-title {
-  height:120px;
+  height:130px;
   font-size: 30px;
   }
-  
+
 .text{
   font-size: 20px;
 }
@@ -32,6 +32,11 @@ h2 {
   margin: 5px;
   margin-bottom: 50px;
   background-color: #f9fff4;
+}
+
+.link_text{
+  display: block;
+  line-height: 30px;
 }
 
 /*# sourceMappingURL=tops.css.map */
