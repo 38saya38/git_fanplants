@@ -71,6 +71,7 @@ a.cardtype_link{
   width: 345px;
   background-size: 345px 345px;
   border: none;
+  box-shadow: 4px 4px 4px #a6a6a6;
 }
 
 
